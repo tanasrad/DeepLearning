@@ -87,7 +87,7 @@ To make the network ready for training, we need to pick three more things, as pa
 * _An optimizer_—The mechanism through which the network will update itself based on the data it sees and its loss function.
 * _Metrics to monitor during training and testing_—Here we'll only care about accuracy (the fraction of the images that were correctly classified).
 
-The exact purpose of the loss function and the optimizer will be made clear throughout the next two chapters.
+The exact purpose of the loss function and the optimizer will be made clear throughout the next two chapters. dfdfgd
 <!-- #endregion -->
 
 ```{r id=8sTnXfooyBX5, colab_type=code, colab={}}

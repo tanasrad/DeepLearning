@@ -32,8 +32,13 @@ Just like the MNIST dataset, the IMDB dataset comes packaged with Keras. It has 
 
 The following code will load the dataset (when you run it for the first time, about 80MB of data will be downloaded to your machine):
 
-```{r results='hide'}
-library(keras)
+```{r}
+devtools::install_github("rstudio/keras")
+devtools::install_github("tidyverse/tidyverse")
+```
+
+```{r results='hide', jupyter={'outputs_hidden': True}}
+library(keras); library(tidyverse)
 imdb <- dataset_imdb(num_words = 10000)
 c(c(train_data, train_labels), c(test_data, test_labels)) %<-% imdb
 ```
