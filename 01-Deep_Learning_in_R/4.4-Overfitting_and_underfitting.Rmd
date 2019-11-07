@@ -139,7 +139,7 @@ plot_training_losses <- function(losses) {
     ggplot(aes(x = epoch, y = loss, colour = model)) +
     geom_point()
 }
-````
+```
 
 Here's a comparison of the validation losses of the original network and the smaller network:
 
